@@ -1,6 +1,5 @@
 <script setup>
-import { ref } from "vue";
-import { onMounted, onUnmounted } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 const menuRef = ref(null);
 const burgerRef = ref(null);
 const bool = ref(true);
